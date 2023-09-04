@@ -40,8 +40,7 @@ describe("HomeComponent", () => {
     fireEvent.change(targetInput, { target: { value: "380" } });
     fireEvent.click(button);
 
-    // Add assertions here to check if the result is displayed as expected.
-    // For example:
+    // Add assertions here to check if the result is displayed as expected.g
     expect(getByText("Results")).toBeInTheDocument();
   });
 });
