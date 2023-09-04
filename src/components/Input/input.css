@@ -1,0 +1,10 @@
+.input-container{
+display: flex;
+flex-direction: column;
+}
+
+.input{
+  padding: 5px;
+    border-radius: 5px;
+    border: solid 0.5px black;
+}

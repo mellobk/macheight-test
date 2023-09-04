@@ -1,0 +1,26 @@
+.home-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home-input-container{
+    display: flex;
+    gap: 5px;
+}
+
+.target-input{
+    width: 10%;
+}
+.array-input {
+    width: 100%;
+}
+
+.result-container{
+    display: flex; 
+    gap: 15px;
+}

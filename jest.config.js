@@ -1,4 +1,10 @@
-module.exports = {
+export default {
+  preset: "ts-jest",
   testEnvironment: "jest-environment-jsdom",
-  setupFiles: ["./jest.setup.js"],
+  transform: {
+    "^.+\\.(js|jsx|ts|tsx)$": "babel-jest", // Include the extensions you're using.
+  },
+  moduleNameMapper: {
+    "\\.(gif|ttf|eot|svg|png)$": "<rootDir>/test/__ mocks __/fileMock.js",
+  },
 };
