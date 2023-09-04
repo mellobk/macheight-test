@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, type FC } from "react";
 import { Button } from "../../../../components/Button/Button";
 import { Input } from "../../../../components/Input/Input";
